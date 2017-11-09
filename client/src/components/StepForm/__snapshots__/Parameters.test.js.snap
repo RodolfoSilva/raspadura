@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parameters add a new field 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Adicionar parametro
+  </button>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         X 
+      </button>
+      <Field
+        component="input"
+        label="Hobby #1"
+        name="[object Object].name"
+        type="text"
+      />
+      <Field
+        component="input"
+        name="[object Object].value"
+        type="text"
+      />
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         X 
+      </button>
+      <Field
+        component="input"
+        label="Hobby #2"
+        name="[object Object].name"
+        type="text"
+      />
+      <Field
+        component="input"
+        name="[object Object].value"
+        type="text"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Parameters render empty 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Adicionar parametro
+  </button>
+  <ul />
+</div>
+`;
+
+exports[`Parameters render with values 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Adicionar parametro
+  </button>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+         X 
+      </button>
+      <Field
+        component="input"
+        label="Hobby #1"
+        name="[object Object].name"
+        type="text"
+      />
+      <Field
+        component="input"
+        name="[object Object].value"
+        type="text"
+      />
+    </li>
+  </ul>
+</div>
+`;
